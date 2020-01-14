@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "@conres.io/fft",
+  "version": "0.0.1",
+  "description": "Fast-enough fourier open source implementations for JavaScript, C++ and WASM… maybe even MatLab!",
+  "author": "Saleh Abdel Motaal <saleh@smotaal.io> (https://smotaal.io/#/meta/)",
+  "contributors": [
+    "Saleh Abdel Motaal <saleh@smotaal.io> (https://smotaal.io/#/meta/)"
+  ],
+  "type": "module",
+  "scripts": {
+    "typescript": "tsc -b ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@smotaal.io/tools": "*",
+    "@smotaal/markout": "*",
+    "@types/node": "*",
+    "http-server": "*",
+    "prettier": "*",
+    "rollup": "*",
+    "typescript": "*"
+  },
+  "resolutions": {
+    "@smotaal/markout": "SMotaal/markout"
+  },
+  "workspaces": {
+    "packages": [
+      "./ts"
+    ]
+  },
+  "publishConfig": {
+    "private": false,
+    "access": "public",
+    "devDependencies": null,
+    "resolutions": null,
+    "workspaces": null
+  }
+}
