@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "ts",
+  "version": "0.0.1",
+  "description": "Fast-enough fourier open source implementation for TypeScript!",
+  "author": "Saleh Abdel Motaal <saleh@smotaal.io>",
+  "type": "module",
+  "exports": {
+    "./": false
+  },
+  "scripts": {
+    "prebuild": "[ -d ./dist ] && rm -f ./dist/* || true;",
+    "build": "rollup -c rollup.config.js; tsc --emitDeclarationOnly -p ./tsconfig.json;"
+  },
+  "devDependencies": {
+    "@smotaal.io/tools": "*",
+    "prettier": "*",
+    "rollup": "*",
+    "@rollup/plugin-typescript": "*",
+    "typescript": "*",
+    "tslib": "*"
+  }
+}

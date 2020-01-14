@@ -1,0 +1,10 @@
+export declare const PI: number, imul: (x: number, y: number) => number, min: (...values: number[]) => number, max: (...values: number[]) => number, pow: (x: number, y: number) => number;
+export declare const hypot: (a: number, b?: number) => number;
+export declare const trunc: (value: number) => number;
+export declare const floor: (value: number) => number;
+export declare const ceil: (value: number) => number;
+export declare const round: (value: number) => number;
+export declare const mround: (value: number, multiple: number) => number;
+export declare const power: (base: number, exponent: number) => number;
+export declare const diagonal: (a: number, b?: number) => number;
+export declare const opposite: (b: number, a?: number) => number;
