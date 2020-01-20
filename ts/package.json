@@ -2,7 +2,7 @@
   "private": true,
   "name": "ts",
   "version": "0.0.1",
-  "description": "Fast-enough fourier open source implementation for TypeScript!",
+  "description": "Fairly-fast fourier transformations in TypeScript",
   "author": "Saleh Abdel Motaal <saleh@smotaal.io>",
   "type": "module",
   "exports": {
