@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "description": "Fairly-fast fourier transformations in JavaScript!",
+  "author": "Saleh Abdel Motaal <saleh@smotaal.io>",
+  "type": "module",
+  "exports": {
+    "./": false
+  },
+  "devDependencies": {
+    "@smotaal.io/tools": "*",
+    "prettier": "*",
+    "rollup": "*",
+    "typescript": "*"
+  }
+}
