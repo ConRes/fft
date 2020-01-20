@@ -14,6 +14,7 @@
   "devDependencies": {
     "@smotaal.io/tools": "*",
     "@smotaal/markout": "*",
+    "@smotaal/types": "*",
     "@types/node": "*",
     "http-server": "*",
     "prettier": "*",
@@ -21,10 +22,12 @@
     "typescript": "*"
   },
   "resolutions": {
-    "@smotaal/markout": "SMotaal/markout"
+    "@smotaal/markout": "SMotaal/markout",
+    "@smotaal/types": "SMotaal/types"
   },
   "workspaces": {
     "packages": [
+      "./js"
       "./ts"
     ]
   },
