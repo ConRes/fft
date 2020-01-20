@@ -1,2 +1,4 @@
 # fft
-Fast-enough fourier open source implementations for JavaScript, C++ and WASM… maybe even MatLab!
+
+Fairly-fast fourier transformations in TypeScript, vanilla JavaScript, C++, WASM, maybe even MatLab.
+
